@@ -1,0 +1,140 @@
+@media screen and (max-width: 375px){
+    .webimg{
+        display: none;
+        visibility: hidden;
+    }
+    .appimg{
+        display: flex;
+        flex-direction: row;
+    }
+    .container{
+        background-color: white;
+        align-items: center;
+        justify-content: center;
+        margin: 5%;
+        overflow: hidden;
+        border-radius: 8px;
+        height: 100%;
+    }
+}
+@media screen and (min-width: 375px){
+    .webimg{
+        display: flex;
+        flex-direction: row;
+        width: 300px;
+        object-fit: center;
+        overflow: hidden;
+
+    }
+    .appimg{
+        display: none;
+        visibility: hidden;
+    }
+    .text{
+        width: 50%;
+    }
+    .container{
+        background-color: white;
+        display: flex;
+        flex-direction: row;
+        overflow: hidden;
+        width: 600px;
+        height: auto;
+        margin-top: 15%;
+        margin-bottom: 15%;
+        margin-right: 25%;
+        margin-left: 25%;
+        border-radius: 8px;
+        justify-content: center;
+        align-items: center;
+    }
+    
+}
+html{
+    background-color: hsl(30, 38%, 92%);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    overflow: hidden;
+}
+h1, .price{
+    font-family: 'Fraunces', serif;
+    font-weight: 700;
+}
+h2{
+    color: grey;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-weight: 500;
+    font-size: 12px;
+    margin-left: 5%;
+   
+}
+h1{
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 1%;
+
+}
+button{
+    background-color: rgb(30, 82, 63);
+    color: white;
+    border-radius: 8px;
+    width: 90%;
+    margin-bottom: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
+    border: none;
+}
+button:hover{
+    background-color: rgb(17, 48, 37);
+}
+img{
+    object-fit: cover;
+    width: 100%;
+    height: auto;
+    
+}
+
+.cartimg {
+    width: auto;
+    height: 20px;
+    margin-top: 2.5%;
+    margin-left: 33%;
+}
+
+p{
+    margin-left: 5%;
+    margin-right: 5%;
+}
+.price{
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -5%;
+}
+.butimg{
+    display: flex;
+    flex-direction: row;
+}
+
+.org{
+    margin-top: 1%;
+    color: grey;
+    font-family: 'Montserrat', sans-serif;
+}
+.prom{
+    color: rgb(30, 82, 63);
+    font-size: 30px;
+    margin-top: -1%;
+}
+.org, .prom{
+    width: 50%;
+}
+.cart{
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    width: 66%;
+    text-align: left;
+}
+.desc{
+    color: rgb(66, 66, 66);
+}
